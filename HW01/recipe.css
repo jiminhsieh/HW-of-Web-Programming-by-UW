@@ -1,0 +1,22 @@
+p {
+	color: #404040;
+	font-family: Georgia;
+	font-size: 11px;
+}
+
+header {
+	color: #A4A400;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #F0F0F0;
+	text-decoration: underline;
+}
+
+div {
+	color: #A4A400;
+	font-family: Arial;
+	font-size: 22px;
+	background-color: #F0F0F0;
+	text-decoration: underline;
+	text-align: center;
+}
