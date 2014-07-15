@@ -2,3 +2,100 @@ p {
 	font-size: 8pt;
 	font-family: Verdana;
 }
+
+#page {
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+	clear: both; /* No floating elements */
+}
+
+#heading {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma;
+	text-shadow: 3px 3px #999999;
+}
+
+body {
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+	background-repeat: repeat;
+	background-position: center;
+}
+
+#banner {
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+#banner-review {
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 83px;
+}
+
+#container {
+	width: 800px;
+	height: auto;
+	/* center-aligened */
+	margin-right: auto;
+	margin-left: auto;
+
+	border-style: solid;
+	border-width: 4px;
+	border-color: gray;
+
+	overflow: hidden;
+}
+
+#overview {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+}
+
+#review-block {
+	width: 550px;
+	float: left;	
+	/* webkit-column-count: 2; /* Chrome, Safari, Opera */ 
+    /* -moz-column-count: 2; /* Firefox */
+    /* column-count: 2; */
+}
+
+.review {
+	width: 47%;
+	margin: 1%;
+	float: left;
+}
+
+#overview-font {
+	font-size: 8pt;
+	font-family: Arial;
+}
+
+#number {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+.quote {
+	background-color: #E8DC9B;
+	font-size: 8pt;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	padding: 8px;
+}
+
+.reviewer {
+	font-family: italic;
+	padding: 5px;
+}
+
+p img {
+	float: left;
+}
