@@ -43,7 +43,7 @@ body {
 
 #banner-review {
 	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
-	background-repeat: repeat-x;
+	/* background-repeat: repeat-x; */
 	background-position: top;
 	height: 83px;
 }
