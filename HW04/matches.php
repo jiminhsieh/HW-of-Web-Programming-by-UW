@@ -24,13 +24,14 @@
 		</div>
 
 		<div> <!-- Matches Form -->
-			<form action= method=>
+			<form action="matches-submit.php" method="get">
 			<fieldset>
 				
 				<ul>
 					<strong>Name:</strong>
 				</ul>
-				<input type="text"/>
+				<input type="text" name="name"/> <!-- It will affect the url. -->
+				
 				<p></p>
 				
 				<input type="submit" value="View My Matches" />
