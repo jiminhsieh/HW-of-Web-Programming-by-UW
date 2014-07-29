@@ -24,49 +24,51 @@
 		</div>
 
 		<div> <!-- Matches Form -->
-			<form action= method=>
+			<form action="signup-submit.php" method="post">
 			<fieldset>
 				<ul>
 					<strong>Name:</strong>
 				</ul>
-				<input type="text" size="16"/>
+				<input type="text" size="16" name="name"/>
 				<br/>
 
 				<ul>
 					<strong>Gender:</strong>
 				</ul>
-				<input type="radio"/> Male
-				<input type="radio" checked="checked"/> Female
+				<input type="radio" name="gender" value="male"/> Male
+				<input type="radio" name="gender" value="female" checked="checked"/> Female
 				<br/>
 
 				<ul>
 					<strong>Age:</strong>
 				</ul>
-				<input type="text" size="6"/>
+				<input type="text" size="6" name="age"/>
 				<br/>
 
 				<ul>
 					<strong>Personality type:</strong>
 				</ul>
-				<input type="text" size="6"/>
+				<input type="text" size="6" name="type"/>
 				<br/>
 
 				<ul>
 					<strong>Favorite OS:</strong>
 				</ul>
-				<select>
-					<option>Windows</option>
-					<option>Mac OS X</option>
-					<option>Linux</option>
+				<select name="os">
+					<option value="windows">Windows</option>
+					<option value="osx">Mac OS X</option>
+					<option value="linux">Linux</option>
 				</select>
 				<br/>
 
 				<ul>
 					<strong>Seeking age:</strong>
 				</ul>
-				<input type="text" size="6" placeholder="min"/>to
-				<input type="text" size="6" placeholder="max"/> 
+				<input type="text" size="6" placeholder="min" name="min"/>to
+				<input type="text" size="6" placeholder="max" name="max"/> 
 				<br/>
+
+				<input type="submit" value="Sign Up" />
 				
 			</fieldset>
 			</form>
